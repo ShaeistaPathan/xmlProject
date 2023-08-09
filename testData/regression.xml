@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "regression">
+<test name = "Login Test">
+<parameter name = "userName" value = "demo@techfios.com"> </parameter>
+<parameter name = "password" value = "abc123"></parameter>
+<parameter name = "FullName" value = "Xml Project"></parameter>
+<parameter name = "CompanyName" value = "Techfios"></parameter>
+<parameter name = "Email" value = "Xml@gmail.com"></parameter>
+<parameter name = "Phone" value = "1234567"></parameter>
+<parameter name = "Address" value = "Techfios Building"></parameter>
+<parameter name = "City" value = "Carrolton"></parameter>
+<parameter name = "State" value = "Texas"></parameter>
+<parameter name = "Zip" value = "75065"></parameter>
+<parameter name = "Country" value = "United States"></parameter>
+<parameter name = "Tag" value = "IT Training"></parameter>
+<parameter name = "Currency" value = "USD"></parameter>
+<parameter name = "Group" value = "Selenium"></parameter>
+<parameter name = "FormPassword" value = "abcd1234"></parameter>
+<parameter name = "ConfirmFormPassword" value = "abcd1234"></parameter>
+
+
+<classes>
+<class name = "test.LoginTest"></class>
+<class name = "test.AddContactTest"></class>
+
+</classes>
+
+</test>
+
+</suite>
